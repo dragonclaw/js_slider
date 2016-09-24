@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.slide1{
+    transition: left 0.5s ease;
+    position:absolute;
+    background-color: red;
+    height: 100%;
+    width:100%;
+    left:-100%;
+}
+.slide2{
+    transition: left 0.5s ease;
+    position:absolute;
+    background-color: darkslateblue;
+    height: 100%;
+    width:100%;
+    left:-100%;
+}
+.slide3{
+    transition: left 0.5s ease;
+    position:absolute;
+    background-color: greenyellow;
+    height: 100%;
+    width:100%;
+    left:-100%;
+}
+#active{
+    transition: left 0.5s ease;
+    left:0px;
+}
